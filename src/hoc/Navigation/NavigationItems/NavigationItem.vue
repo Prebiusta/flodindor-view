@@ -1,7 +1,16 @@
 <template>
   <div class="nav-item">
-    <i class="fas fa-user-circle text-shadow"></i>
-    <router-link class="text-shadow" :to="link">{{ title }}</router-link>
+    <hr class="shadow">
+    <router-link class="text-shadow" :to="link">
+      <div class="nav-content">
+        <div id="icon">
+          <i :class="[icon, 'text-shadow']"></i>
+        </div>
+        <div>
+          {{ title }}
+        </div>
+      </div>
+    </router-link>
   </div>
 </template>
 
@@ -28,12 +37,36 @@ export default {
 <style scoped lang="scss">
 .nav-item {
   margin: 0.25rem;
+  width: 100%;
+}
+
+hr {
+  margin: 0;
+  background-color: $secondary;
+}
+
+.nav-content {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  text-align: left;
+
+  #icon {
+    width: 32px;
+    height: 32px;
+    color: white;
+    margin-right: 0.5rem;
+  }
 }
 
 a {
   font-weight: bold;
   color: $almond;
-  margin: 1rem;
+
+  i {
+    margin: 0.5rem;
+  }
+
 }
 
 a.router-link-exact-active {

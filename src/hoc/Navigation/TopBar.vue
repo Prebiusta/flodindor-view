@@ -1,6 +1,6 @@
 <template>
   <div class="top-bar almond shadow">
-    <nav-drawer @click="activateNavDrawer()" :is-visible="navigationVisible"></nav-drawer>
+    <nav-drawer></nav-drawer>
     <div class="header text-shadow">FloDinDor</div>
     <i class="fas fa-user-circle fa-2x text-shadow"></i>
   </div>
@@ -8,17 +8,9 @@
 
 <script>
 
-import NavDrawer from "@/hoc/Navigation/NavDrawer";
+import NavDrawer from "@/hoc/Navigation/NavDrawer/NavDrawer";
 export default {
   name: "TopBar",
-  data: () => ({
-    navigationVisible: false
-  }),
-  methods: {
-    activateNavDrawer() {
-      this.navigationVisible = !this.navigationVisible;
-    },
-  },
   components: {NavDrawer},
 }
 </script>
@@ -32,6 +24,7 @@ export default {
   align-items: center;
   height: $top_bar_height;
   padding: 0 0.8rem;
+  margin-bottom: 1rem;
 }
 
 .header {

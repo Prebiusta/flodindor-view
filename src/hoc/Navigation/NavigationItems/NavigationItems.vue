@@ -4,7 +4,7 @@
                      :key="index"
                      :link="navLink.link"
                      :title="navLink.title"
-    />
+                     :icon="navLink.icon"/>
   </div>
 </template>
 
@@ -15,8 +15,9 @@ export default {
   name: "NavigationItems",
   data: () => ({
     navLinks: [
-      {link: "/", title: "Home"},
-      {link: "/about", title: "About"},
+      {link: "/latest", title: "Latest", icon: "far fa-newspaper"},
+      {link: "/search", title: "Search", icon: "fas fa-search"},
+      {link: "/contact", title: "Contact", icon: "fas fa-id-card-alt"},
     ]
   }),
   components: {NavigationItem}
@@ -27,6 +28,6 @@ export default {
 .nav-items {
   display: flex;
   flex-direction: column;
-  align-items: start;
+  align-items: flex-start;
 }
 </style>

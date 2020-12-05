@@ -1,8 +1,10 @@
 <template>
-<div>
-  <top-bar/>
-  <slot></slot>
-</div>
+  <div>
+    <top-bar/>
+    <transition name="fade-in">
+      <slot></slot>
+    </transition>
+  </div>
 </template>
 
 <script>
@@ -14,6 +16,5 @@ export default {
 }
 </script>
 
-<style scoped>
-
+<style scoped lang="scss">
 </style>
