@@ -1,0 +1,134 @@
+@import "colors";
+
+.btn-primary {
+  color: #fff;
+  background-color: $primary;
+  border-color: $primary;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: $primary_focus;
+  border-color: $primary_focus;
+}
+
+.btn-primary.focus, .btn-primary:focus {
+  color: #fff;
+  background-color: $primary_focus;
+  border-color: $primary_focus;
+  box-shadow: 0 0 0 .2rem rgba(45, 78, 90, .5)
+}
+
+.btn-primary.disabled, .btn-primary:disabled {
+  color: #fff;
+  background-color: $primary_disabled;
+  border-color: $primary_disabled;
+}
+
+
+
+
+
+.btn-secondary {
+  color: #fff;
+  background-color: $secondary;
+  border-color: $secondary;
+}
+
+.btn-secondary:hover {
+  color: #fff;
+  background-color: $secondary_focus;
+  border-color: $secondary_focus;
+}
+
+.btn-secondary.focus, .btn-secondary:focus {
+  color: #fff;
+  background-color: $secondary_focus;
+  border-color: $secondary_focus;
+  box-shadow: 0 0 0 .2rem rgba(45, 78, 90, .5)
+}
+
+.btn-secondary.disabled, .btn-secondary:disabled {
+  color: #fff;
+  background-color: $secondary_disabled;
+  border-color: $secondary_disabled;
+}
+
+
+
+.btn-mavue {
+  color: #fff;
+  background-color: $mavue;
+  border-color: $mavue;
+}
+
+.btn-mavue:hover {
+  color: #fff;
+  background-color: $mavue_focus;
+  border-color: $mavue_focus;
+}
+
+.btn-mavue.focus, .btn-mavue:focus {
+  color: #fff;
+  background-color: $mavue_focus;
+  border-color: $mavue_focus;
+  box-shadow: 0 0 0 .2rem rgba(45, 78, 90, .5)
+}
+
+.btn-mavue.disabled, .btn-mavue:disabled {
+  color: #fff;
+  background-color: $mavue_disabled;
+  border-color: $mavue_disabled;
+}
+
+
+.btn-copper {
+  color: #fff;
+  background-color: $copper;
+  border-color: $copper;
+}
+
+.btn-copper:hover {
+  color: #fff;
+  background-color: $copper_focus;
+  border-color: $copper_focus;
+}
+
+.btn-copper.focus, .btn-copper:focus {
+  color: #fff;
+  background-color: $copper_focus;
+  border-color: $copper_focus;
+  box-shadow: 0 0 0 .2rem rgba(45, 78, 90, .5)
+}
+
+.btn-copper.disabled, .btn-copper:disabled {
+  color: #fff;
+  background-color: $copper_disabled;
+  border-color: $copper_disabled;
+}
+
+
+.btn-almond {
+  color: #fff;
+  background-color: $almond;
+  border-color: $almond;
+}
+
+.btn-almond:hover {
+  color: #fff;
+  background-color: $almond_focus;
+  border-color: $almond_focus;
+}
+
+.btn-almond.focus, .btn-almond:focus {
+  color: #fff;
+  background-color: $almond_focus;
+  border-color: $almond_focus;
+  box-shadow: 0 0 0 .2rem rgba(45, 78, 90, .5)
+}
+
+.btn-almond.disabled, .btn-almond:disabled {
+  color: #fff;
+  background-color: $almond_disabled;
+  border-color: $almond_disabled;
+}

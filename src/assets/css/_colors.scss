@@ -1,0 +1,62 @@
+$primary: #3A606E;
+$primary_focus: #2d4e5a;
+$primary_disabled: #27434c;
+
+$secondary: #607B7D;
+$secondary_focus: #4a6061;
+$secondary_disabled: #1f2728;
+
+$mavue: #6D2E46;
+$mavue_focus: #4e2133;
+$mavue_disabled: #421c2a;
+
+$copper: #A26769;
+$copper_focus: #6f4648;
+$copper_disabled: #4b3032;
+
+$almond: #E7D7C1;
+$almond_focus: #b1a393;
+$almond_disabled: #7d7668;
+
+$site_background: #f2f2f2;
+
+.primary {
+  color: $primary;
+}
+
+.secondary {
+  color: $secondary;
+}
+
+.mavue {
+  color: $mavue;
+}
+
+.copper {
+  color: $copper;
+}
+
+.almond {
+  color: $almond;
+}
+
+
+.bg-primary {
+  background-color: $primary;
+}
+
+.bg-secondary {
+  background-color: $secondary;
+}
+
+.bg-mavue {
+  background-color: $mavue;
+}
+
+.bg-copper {
+  background-color: $copper;
+}
+
+.bg-almond {
+  background-color: $almond;
+}
